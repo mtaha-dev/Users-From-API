@@ -1,0 +1,50 @@
+.table{
+
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th, 
+.table td{
+
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.thead{
+
+    background-color: #333;
+    color: aliceblue;
+}
+.btns{
+
+    display: flex;
+    gap: 1rem;
+}
+.btn_modifier{
+
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.btn_supprimer{
+
+    background-color: #DC2626;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.btn_modifier:hover{
+
+    cursor: pointer;
+    background-color: #1D4ED8;
+}
+
+.btn_supprimer:hover{
+
+    cursor: pointer;
+    background-color: #B91C1C;
+}

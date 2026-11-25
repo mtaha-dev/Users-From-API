@@ -1,0 +1,131 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #1E293B;
+}
+
+
+.table th {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    border: 1px solid #334155;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.table td {
+    padding: 14px 12px;
+    border: 1px solid #E2E8F0;
+    text-align: center;
+}
+
+
+.table tbody tr:nth-child(even) {
+    background-color: #F8FAFC;
+}
+
+
+.table tbody tr:hover {
+    background-color: #EFF6FF;
+    transition: background-color 0.2s ease;
+}
+
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.updateBtn {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.updateBtn:hover {
+    background-color: #1D4ED8;
+}
+
+
+.deleteBtn {
+    background-color: #DC2626;
+    color: #FFFFFF;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.deleteBtn:hover {
+    background-color: #B91C1C;
+}
+
+.search {
+    width: 300px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+
+    font-size: 15px;
+    color: #1E293B;
+    background-color: #FFFFFF;
+
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.search:focus {
+    border-color: #2563EB;
+}
+
+.search::placeholder {
+    color: #94A3B8;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 300px;
+    padding: 12px 15px;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.addBtn {
+    background-color: #16A34A;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.addBtn:hover {
+    background-color: #15803D;
+}
