@@ -32,7 +32,7 @@ function ShowUsers({ users, error, addUser }) {
             <input
               className={styles.search}
               type="text"
-              placeholder="Rechercher un utilisateur---"
+              placeholder="Rechercher un utilisateur..."
               value={search}
               onChange={(event) => setSearch(event.target.value)}
             />
